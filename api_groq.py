@@ -2,7 +2,7 @@ from groq import Groq
 import os
 import groq
 
-client = Groq(api_key="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")
+client = Groq(api_key="API_KEY")
 
 completion = client.chat.completions.create(
     model="llama3-70b-8192",
