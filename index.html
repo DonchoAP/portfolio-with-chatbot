@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doncho Panayotov - Data Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Doncho Panayotov</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#chatbot">Data Bot</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container" data-aos="fade-up">
+            <h2>Data Engineer & Data Analyst</h2>
+            <p>Specialized in building robust data infrastructures and scalable AI solutions.</p>
+            <canvas id="particles"></canvas>
+        </div>
+    </section>
+
+    <section id="about" class="content">
+        <div class="container" data-aos="fade-up">
+            <h2>About Me</h2>
+            <img src="C:\Users\49174\Desktop\portfolio-chatgpt\picsLichtbild_Doncho_Panayotov.jpg" alt="Doncho Panayotov" class="profile-pic">
+            <p>Multilingual expert with over 3 years of industry experience. Developed machine learning applications to optimize customer communication. Blend independence with engagements for large corporations. Innovative service quality through continuous education in IT, sales, and customer service. Profound AI knowledge for early detection of groundbreaking technologies.</p>
+            <p>Focus Areas: Data Analysis, Machine Learning, Project Management, Collaboration, Database Management, Data Warehouse, Knowledge Management, Task Management</p>
+        </div>
+    </section>
+
+    <section id="experience" class="content">
+        <div class="container" data-aos="fade-up">
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <h3>Data Engineer - Freelancer | 09/2023 - Present</h3>
+                <ul>
+                    <li>Developed robust web scraping solutions using Python libraries such as BeautifulSoup and Scrapy.</li>
+                    <li>Automated ML training processes on Azure, incorporating NLP techniques for sentiment analysis and topic modeling.</li>
+                    <li>Applied agile methods like Scrum and Kanban for effective communication and collaboration with stakeholders.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Data Analyst - o2 Telefónica | 01/2023 - 08/2023</h3>
+                <ul>
+                    <li>Developed tailored sentiment analysis models using HuggingFace.</li>
+                    <li>Collaborated with cross-functional teams to identify trends and patterns.</li>
+                    <li>Utilized Azure Data Lake for data processing and analysis.</li>
+                    <li>Created comprehensive dashboards and reports using Power BI.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>E-Commerce Manager - Freelancer | 09/2020 – 12/2022</h3>
+                <ul>
+                    <li>Collected data from social media, websites, and Google APIs using BeautifulSoup and Scrapy.</li>
+                    <li>Designed dynamic pricing models and cleaned data with Pandas and NumPy.</li>
+                    <li>Developed models using Scikit-learn and XGBoost.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="content">
+        <div class="container" data-aos="fade-up">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>AI Chatbot Solutions</h3>
+                    <p>Led the development and implementation of tailored chatbot solutions using Llama 3, enhancing conversational abilities and user engagement.</p>
+                </div>
+                <div class="project">
+                    <h3>Price Finding Engine</h3>
+                    <p>Spearheaded the creation of a price finding engine utilizing ML algorithms, optimizing pricing strategies for clients.</p>
+                </div>
+                <div class="project">
+                    <h3>Web Scraping Solutions</h3>
+                    <p>Utilized Python libraries like BeautifulSoup and Scrapy to develop robust web scraping solutions, ensuring accurate and efficient data collection.</p>
+                    <img src="diagrams.jpg" alt="Data Analysis" class="project-image">
+                </div>
+            </div>
+            <div class="chart-container">
+                <canvas id="projectChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <section id="chatbot" class="content">
+        <div class="container" data-aos="fade-up">
+            <h2>Data Bot</h2>
+            <div class="chat-container">
+                <div id="chatbox">
+                    <div id="messages"></div>
+                </div>
+                <input type="text" id="userInput" placeholder="Type your message here..." />
+                <button id="sendBtn">Send</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content">
+        <div class="container" data-aos="fade-up">
+            <h2>Contact</h2>
+            <p>You can contact me via email at <a href="mailto:doncho.ap@gmail.com">doncho.ap@gmail.com</a> or follow me on my social media profiles:</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/doncho-panayotov/">LinkedIn</a></li>
+                <li><a href="https://github.com/DonchoAP/DonchoAP">GitHub</a></li>
+                <li><a href="https://learn.microsoft.com/es-es/users/doncho-panayotov/">Microsoft Learn</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Doncho Panayotov</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
